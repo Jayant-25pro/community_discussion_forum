@@ -1,213 +1,117 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+background:white;
+font-family:Arial;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333333;
+h1{
+text-align:center;
+color:blue;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+h2{
+color:black;
 }
 
-header {
-    background-color: #1e3a8a;
-    color: white;
-    padding: 20px;
-    text-align: center;
+.container{
+width:90%;
+margin:auto;
 }
 
-header h1 {
-    margin-bottom: 15px;
+header{
+background:lightblue;
+padding:10px;
 }
 
-nav ul {
-    list-style: none;
+nav ul{
+list-style:none;
 }
 
-nav ul li {
-    display: inline;
-    margin: 15px;
+nav ul li{
+display:inline;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+nav ul li a{
+text-decoration:none;
+color:black;
+margin:10px;
 }
 
-.header-buttons {
-    margin-top: 20px;
+button{
+background:blue;
+color:white;
+padding:5px;
 }
 
-.header-buttons button {
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    background-color: white;
-    color: #1e3a8a;
-    cursor: pointer;
+.hero{
+padding:20px;
+text-align:center;
 }
 
-.hero {
-    background-color: white;
-    text-align: center;
-    padding: 40px;
-    margin-top: 20px;
+.search-section{
+margin-top:20px;
 }
 
-.hero h2 {
-    margin-bottom: 15px;
+.search-section input{
+width:300px;
 }
 
-.hero p {
-    margin-bottom: 20px;
+.categories{
+margin-top:20px;
 }
 
-.hero-buttons button {
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    background-color: #1e3a8a;
-    color: white;
-    cursor: pointer;
+.category-card{
+border:1px solid black;
+margin:10px;
+padding:10px;
 }
 
-.search-section {
-    text-align: center;
-    margin-top: 30px;
+.discussions{
+margin-top:20px;
 }
 
-.search-section input {
-    width: 60%;
-    padding: 10px;
+.discussion-card{
+border:1px solid black;
+margin:10px;
+padding:10px;
 }
 
-.search-section button {
-    padding: 10px 20px;
-    background-color: #1e3a8a;
-    color: white;
-    border: none;
-    cursor: pointer;
+.discussion-info span{
+margin-right:10px;
 }
 
-.categories {
-    margin-top: 40px;
+.new-post{
+margin-top:20px;
 }
 
-.categories h2 {
-    text-align: center;
-    margin-bottom: 20px;
+.new-post input{
+width:100%;
+margin-top:10px;
 }
 
-.category-card {
-    background-color: white;
-    border: 1px solid #cccccc;
-    padding: 20px;
-    margin-bottom: 20px;
+.new-post select{
+width:100%;
+margin-top:10px;
 }
 
-.category-card h3 {
-    margin-bottom: 10px;
+.new-post textarea{
+width:100%;
+margin-top:10px;
 }
 
-.discussions {
-    margin-top: 40px;
+.community-stats{
+margin-top:20px;
 }
 
-.discussions h2 {
-    text-align: center;
-    margin-bottom: 20px;
+.stat-card{
+border:1px solid black;
+margin:10px;
+padding:10px;
+text-align:center;
 }
 
-.discussion-card {
-    background-color: white;
-    border: 1px solid #cccccc;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.discussion-card h3 {
-    margin-bottom: 10px;
-}
-
-.discussion-card p {
-    margin-bottom: 15px;
-}
-
-.discussion-info {
-    margin-bottom: 15px;
-}
-
-.discussion-info span {
-    margin-right: 20px;
-}
-
-.discussion-card button {
-    padding: 10px 20px;
-    background-color: #1e3a8a;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.new-post {
-    margin-top: 40px;
-}
-
-.new-post h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.new-post form {
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #cccccc;
-}
-
-.new-post input,
-.new-post select,
-.new-post textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-}
-
-.new-post button {
-    padding: 10px 20px;
-    background-color: #1e3a8a;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.community-stats {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.community-stats h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.stat-card {
-    background-color: white;
-    border: 1px solid #cccccc;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-footer {
-    background-color: #1e3a8a;
-    color: white;
-    text-align: center;
-    padding: 20px;
+footer{
+background:lightblue;
+text-align:center;
+padding:10px;
+margin-top:20px;
 }
